@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #23272a;
+}
+
+input,
+button {
+  font-size: 14px;
+}
+
+.head_bar {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23272a;
+  box-shadow: 0 5px 10px #17181a;
+  color: #99aab5;
+}
+
+.fav,
+p {
+  text-align: center;
+  color: white;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.input_section {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid #181b1d;
+  box-shadow: 0 5px 20px #17181a;
+  border-radius: 10px;
+}
+.input_section > p {
+  font-size: 12px;
+}
+
+.input_section > h2,
+p {
+  text-align: center;
+  color: #99aab5;
+}
+
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+.input_section > form > button {
+  background-color: #7289da;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input_section > form > .input > label {
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  color: #ffffff;
+  font-weight: lighter;
+  margin-right: 10px;
+}
+
+.search_section {
+  margin: 16px 0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #181b1d;
+  box-shadow: 0 2px 20px #17181a;
+  border-radius: 10px;
+}
+
+.search_section > h2 {
+  color: #99aab5;
+}
+
+.search_section > form {
+  padding: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr 0.5fr;
+  grid-gap: 10px;
+}
+
+.search_section > form > label {
+  display: flex;
+  align-items: center;
+}
+
+.search_section > form > input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search_section > form > button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf {
+  margin: 16px 0 0 0;
+  border: 1px solid #181b1d;
+  box-shadow: 0 5px 20px #17181a;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+.book_shelf > h2 {
+  color: #99aab5;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  background: white;
+  padding: 8px 16px 16px 16px;
+  border: 1px solid #181b1d;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+  color: #181b1d;
+  text-align: left;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+  border: 0;
+  width: 80px;
+  height: 35px;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .teal {
+  background-color: #35b1c9;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .softRed {
+  background-color: #e96060;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .softViolet {
+  background-color: #553973;
+  color: white;
+}
